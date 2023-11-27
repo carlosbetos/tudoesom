@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Carlos Alberto\\AndroidStudioProjects\\TudoEsom\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_sdp_example.xml.flat",
+        "source": "C:\\Users\\Carlos Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\sdp-android-1.0.4.aar\\9fe7cb2445faf8be09641a4fa584ab0e\\res\\layout\\sdp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos Alberto\\AndroidStudioProjects\\TudoEsom\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dp_example.xml.flat",
+        "source": "C:\\Users\\Carlos Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\sdp-android-1.0.4.aar\\9fe7cb2445faf8be09641a4fa584ab0e\\res\\layout\\dp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos Alberto\\AndroidStudioProjects\\TudoEsom\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_sp_example.xml.flat",
+        "source": "C:\\Users\\Carlos Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\ssp-android-1.0.4.aar\\01937811bef7b307a5a9a5d97394ed33\\res\\layout\\sp_example.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos Alberto\\AndroidStudioProjects\\TudoEsom\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_ssp_example.xml.flat",
+        "source": "C:\\Users\\Carlos Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\ssp-android-1.0.4.aar\\01937811bef7b307a5a9a5d97394ed33\\res\\layout\\ssp_example.xml"
+    }
+]
