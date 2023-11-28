@@ -1,0 +1,53 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/todo_som"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        tools:context="br.com.tudoesom.LangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_12sdp"
+            android:contentDescription="TODO"
+            android:onClick="doInPortugues"
+            android:src="@drawable/portugues" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_12sdp"
+            android:onClick="doInEnglish"
+            android:src="@drawable/ingles" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_12sdp"
+            android:onClick="doInEspanish"
+            android:src="@drawable/espanhol" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_12sdp"
+            android:onClick="doInFrench"
+            android:src="@drawable/frances" />
+
+    </LinearLayout>
+
+</RelativeLayout>

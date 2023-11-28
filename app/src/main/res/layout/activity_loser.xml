@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/red_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp"
+    tools:context="br.com.tudoesom.LoserActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/errou"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/pinguin_lost" />
+
+    <TextView
+        android:id="@+id/textViewTheRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="ABACAXI"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewMonkei"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:onClick="doRandomico"
+            android:src="@drawable/repetidor_randomico" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:onClick="doRepeat"
+            android:src="@drawable/refresh" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:onClick="doNextGame"
+        android:src="@drawable/proxima_" />
+</LinearLayout>

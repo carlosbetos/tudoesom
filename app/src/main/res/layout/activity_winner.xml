@@ -1,0 +1,60 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yellow_bg"
+        android:padding="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context="br.com.tudoesom.WinnerActivity">
+
+    <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:src="@drawable/winner_txt"/>
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:onClick="tocarNoPingui"
+            android:scaleType="fitEnd"/>
+         <!--  android:src="@drawable/pinguin_winner"/>-->
+
+    <TextView
+            android:id="@+id/textViewTheRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="20"
+            android:shadowDy="0"
+            android:shadowRadius="20"
+            android:text="ABACAXI"
+            android:textColor="#FFFFFF"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"/>
+
+    <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:onClick="doRepeat"
+            android:src="@drawable/refresh"/>
+
+    <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:onClick="doNextGame"
+            android:src="@drawable/proxima_"/>
+
+</LinearLayout>

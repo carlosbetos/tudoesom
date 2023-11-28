@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.tudoesom.MonkeyActivity">
+
+    <ImageView
+        android:id="@+id/imageViewFundoMonkey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingTop="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/imageView1"
+            android:onClick="doBack"
+            android:src="@drawable/back_btn" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="alteraIdioma" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textViewTheRead"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/viewfinder_border"
+        android:gravity="center"
+        android:text="ABACAXI"
+        android:textColor="#ff0000"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTheRead"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_alignTop="@+id/linearLayout"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:onClick="doQr"
+                    android:src="@drawable/tick_btn" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:onClick="doCancel"
+                android:src="@drawable/cancel" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:onClick="doMonkey"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
