@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.tudoesom"
-    android:versionCode="10"
-    android:versionName="1.10.00">
-
-    <uses-sdk
-        android:minSdkVersion="17"
-        android:targetSdkVersion="26" />
-
+    package="br.com.tudoesom">
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.hardware.camera" />
-    <uses-permission android:name=" android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -24,7 +17,8 @@
         <activity
             android:name=".MainActivity"
             android:label="Tudo é Som"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
